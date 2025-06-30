@@ -1,3 +1,6 @@
 [submodule "Assets/_/GameJam3D-Assets"]
 	path = Assets/_/GameJam3D-Assets
 	url = https://github.com/lebrunregis/GameJam3D-Assets.git
+[submodule "Assets/_/Toolbox"]
+	path = Assets/_/Toolbox
+	url = https://github.com/lebrunregis/Toolbox.git
