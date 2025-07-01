@@ -1,13 +1,13 @@
-using System.Collections;
 using System.Collections.Generic;
+using Codice.CM.Common;
 using UnityEngine;
 
 public class ConveyorBelt : MonoBehaviour
 {
     #region Unity API
-    
-    
-    void Start()
+
+
+    private void Start()
     {
         /* Create an instance of this texture
          * This should only be necessary if the belts are using the same material and are moving different speeds
@@ -15,47 +15,56 @@ public class ConveyorBelt : MonoBehaviour
         material = GetComponent<MeshRenderer>().material;
     }
 
-    
+
     private void Update()
     {
+        Debug.Log("Test");
         // Move the conveyor belt texture to make it look like it's moving
-        material.mainTextureOffset += new Vector2(0, 1) * conveyorSpeed * Time.deltaTime;
+        material.mainTextureOffset += textureScrollSpeed * Time.deltaTime;
+        Vector3 movement = direction * Time.deltaTime;
+        foreach (Rigidbody rb in onBelt)
+        {
+            rb.position += movement;
+          //  rb.MovePosition(rb.position + movement);
+          //  rb.linearVelocity = direction;
+        }
     }
 
     // Fixed update for physics
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        // For every item on the belt, add force to it in the direction given
-        for (int i = 0; i <= onBelt.Count - 1; i++)
-        {
-            onBelt[i].GetComponent<Rigidbody>().linearVelocity=speed * direction;
-        }
     }
 
     // When something collides with the belt
     private void OnCollisionEnter(Collision collision)
     {
-        onBelt.Add(collision.gameObject);
+        Debug.Log("Coffin on collider");
+        Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
+        onBelt.Add(rb);
+       // rb.useGravity = false;
+
     }
 
     // When something leaves the belt
     private void OnCollisionExit(Collision collision)
     {
-        onBelt.Remove(collision.gameObject);
+        Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
+       // rb.useGravity = true;
+        onBelt.Remove(rb);
     }
 
-    
+
     #endregion
-    
-    
+
+
     #region Private
 
     [SerializeField]
-    private float speed, conveyorSpeed;
+    private Vector2 textureScrollSpeed;
     [SerializeField]
     private Vector3 direction;
     [SerializeField]
-    private List<GameObject> onBelt;
+    private List<Rigidbody> onBelt;
 
     private Material material;
 

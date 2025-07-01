@@ -1,7 +1,3 @@
-using System.Collections;
-
-using System.Collections.Generic;
-
 using UnityEngine;
 public class DragObject : MonoBehaviour
 {
@@ -13,7 +9,7 @@ public class DragObject : MonoBehaviour
 
 
 
-    void OnMouseDown()
+    private void OnMouseDown()
 
     {
 
@@ -55,7 +51,7 @@ public class DragObject : MonoBehaviour
 
 
 
-    void OnMouseDrag()
+    private void OnMouseDrag()
 
     {
 

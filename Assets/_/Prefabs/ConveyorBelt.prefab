@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4625790993564866371
+--- !u!1 &3401573803598612489
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6922628958679548280}
-  - component: {fileID: 1970341032003023560}
-  - component: {fileID: 3480736613799384743}
-  - component: {fileID: 537922526909739953}
-  - component: {fileID: 4865055266347972819}
-  - component: {fileID: -8398815466690542018}
-  m_Layer: 6
-  m_Name: BadCoffin
+  - component: {fileID: 5938746881980064448}
+  - component: {fileID: 1069285464824551908}
+  - component: {fileID: 99105365552726592}
+  - component: {fileID: 3863626622784823455}
+  - component: {fileID: 7641293881376985679}
+  - component: {fileID: 8705976599109763082}
+  m_Layer: 7
+  m_Name: ConveyorBelt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &6922628958679548280
+--- !u!4 &5938746881980064448
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625790993564866371}
+  m_GameObject: {fileID: 3401573803598612489}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.06}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.33, z: 0}
+  m_LocalScale: {x: 1.3865, y: 0.14826, z: 9.4448}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1970341032003023560
+--- !u!33 &1069285464824551908
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625790993564866371}
+  m_GameObject: {fileID: 3401573803598612489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &3480736613799384743
+--- !u!23 &99105365552726592
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625790993564866371}
+  m_GameObject: {fileID: 3401573803598612489}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7990519a764e04642afff147810de2f4, type: 2}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,13 +89,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &537922526909739953
+--- !u!65 &3863626622784823455
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625790993564866371}
+  m_GameObject: {fileID: 3401573803598612489}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -110,13 +110,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4865055266347972819
+--- !u!54 &7641293881376985679
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625790993564866371}
+  m_GameObject: {fileID: 3401573803598612489}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -132,20 +132,23 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &-8398815466690542018
+--- !u!114 &8705976599109763082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625790993564866371}
+  m_GameObject: {fileID: 3401573803598612489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1891de94586c38f4d8347f1ac8a7e208, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a8d953932a532c48b3c49ac1e810c30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textureScrollSpeed: {x: 0, y: 0}
+  direction: {x: 0, y: 0, z: 1}
+  onBelt: []

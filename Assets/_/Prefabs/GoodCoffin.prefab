@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3491223975166263037}
   - component: {fileID: 7620453171169969837}
   - component: {fileID: 2574895715943393287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GoodCoffin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
