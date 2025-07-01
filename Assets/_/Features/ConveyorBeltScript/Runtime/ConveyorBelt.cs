@@ -18,15 +18,12 @@ public class ConveyorBelt : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Test");
         // Move the conveyor belt texture to make it look like it's moving
         material.mainTextureOffset += textureScrollSpeed * Time.deltaTime;
         Vector3 movement = direction * Time.deltaTime;
         foreach (Rigidbody rb in onBelt)
         {
             rb.position += movement;
-          //  rb.MovePosition(rb.position + movement);
-          //  rb.linearVelocity = direction;
         }
     }
 
@@ -41,15 +38,12 @@ public class ConveyorBelt : MonoBehaviour
         Debug.Log("Coffin on collider");
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         onBelt.Add(rb);
-       // rb.useGravity = false;
-
     }
 
     // When something leaves the belt
     private void OnCollisionExit(Collision collision)
     {
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
-       // rb.useGravity = true;
         onBelt.Remove(rb);
     }
 
