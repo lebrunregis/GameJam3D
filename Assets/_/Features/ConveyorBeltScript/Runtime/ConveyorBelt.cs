@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Codice.CM.Common;
+using ConveyorBeltScript.Runtime;
 using UnityEngine;
 
 public class ConveyorBelt : MonoBehaviour
@@ -20,10 +20,21 @@ public class ConveyorBelt : MonoBehaviour
     {
         // Move the conveyor belt texture to make it look like it's moving
         material.mainTextureOffset += textureScrollSpeed * Time.deltaTime;
+
+
         Vector3 movement = direction * Time.deltaTime;
-        foreach (Rigidbody rb in onBelt)
+        for (int i = 0; i < GOOnBelt.Count; i++)
         {
-            rb.position += movement;
+            Rigidbody rb = GOOnBelt[i].gameObject.GetComponent<Rigidbody>();
+            Grabable grabable = GOOnBelt[i].gameObject.GetComponent<Grabable>();
+            if (grabable.grabbed == true)
+            {
+                GOOnBelt.Remove(GOOnBelt[i]);
+            }
+            else
+            {
+                rb.MovePosition(rb.position + movement);
+            }
         }
     }
 
@@ -37,14 +48,19 @@ public class ConveyorBelt : MonoBehaviour
     {
         Debug.Log("Coffin on collider");
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
-        onBelt.Add(rb);
+        Grabable grabable = collision.gameObject.GetComponent<Grabable>();
+
+        GOOnBelt.Add(collision.gameObject);
+        rb.useGravity = false;
     }
 
     // When something leaves the belt
     private void OnCollisionExit(Collision collision)
     {
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
-        onBelt.Remove(rb);
+        Grabable grabable = collision.gameObject.GetComponent<Grabable>();
+        GOOnBelt.Remove(collision.gameObject);
+        rb.useGravity = true;
     }
 
 
@@ -58,7 +74,7 @@ public class ConveyorBelt : MonoBehaviour
     [SerializeField]
     private Vector3 direction;
     [SerializeField]
-    private List<Rigidbody> onBelt;
+    private List<GameObject> GOOnBelt = new();
 
     private Material material;
 

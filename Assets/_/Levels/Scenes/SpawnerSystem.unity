@@ -1278,8 +1278,7 @@ MonoBehaviour:
       m_Calls: []
   startupTime: 3
   repeatTime: 1
-  repeatCount: 1
-  loopForever: 1
+  repeatCount: -1
 --- !u!4 &1193274015
 Transform:
   m_ObjectHideFlags: 0
@@ -1364,10 +1363,10 @@ MonoBehaviour:
   spawnLocations:
   - {fileID: 900158739}
   objectPool: {fileID: 1193274017}
-  waveSize: 1
+  waveSize: -1
   pushForce: 0
   spawnSpread: 0
-  furthestSpawnRandomRange: 0
+  furthestSpawnRange: 0
   initialVelocity: {x: 0, y: 0}
   spawnBehavior: 1
 --- !u!1001 &1208353964
