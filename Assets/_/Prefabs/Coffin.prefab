@@ -36,7 +36,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 2.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3850350577647136065}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1970341032003023560
@@ -189,9 +190,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0080c0d62394941a609440c17d44d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  placementBaseAngle: {x: 180, y: 0, z: 0}
+  placementRange: {x: 45, y: 45, z: 0}
+  raycastDistance: 3
+  raycastSource: {fileID: 3850350577647136065}
   StickerAmountFactor: 4
   stickersToSpawn: 0
   goodStickers:
   - {fileID: 5535436103170177922, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
   evilStickers:
   - {fileID: 5535436103170177922, guid: e595b732461efa24f9fd860c74a16b14, type: 3}
+  spawnedStickers: []
+--- !u!1 &5986739797921783606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3850350577647136065}
+  m_Layer: 6
+  m_Name: RaycastSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3850350577647136065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986739797921783606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6922628958679548280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
