@@ -1,4 +1,3 @@
-using System;
 using GameManager.Runtime;
 using LayerChangeCoffin.Runtime;
 using UnityEngine;
@@ -7,15 +6,12 @@ namespace ScoreAndHp.runtime
 {
     public class Score : MonoBehaviour
     {
-        
-        
-
         private void OnTriggerEnter(Collider other)
         {
             LayerChanger coffin = other.GetComponent<LayerChanger>();
             if (coffin == null) return;
 
-            if (coffin.m_coffinType == expectedIndex)
+            if (coffin.m_coffinType == expectedType)
             {
                 gameManager.AddScore(1);
                 Debug.Log("Bonne zone !");
@@ -28,17 +24,15 @@ namespace ScoreAndHp.runtime
 
             Destroy(other.gameObject);
         }
-        
-        #region Unity API
-     
-        #endregion
-        
-        
-        #region Private
-        [SerializeField] private int expectedIndex;
-        [SerializeField] private GameManagerScript gameManager;
-       
 
+        #region Unity API
+
+        #endregion
+
+
+        #region Private
+        [SerializeField] private LayerChanger.CoffinType expectedType;
+        [SerializeField] private GameManagerScript gameManager;
         #endregion
     }
 }

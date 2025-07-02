@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -8398815466690542018}
   - component: {fileID: 2323982879649036336}
   - component: {fileID: -5524324481434934944}
+  - component: {fileID: 8410517300879436118}
   m_Layer: 6
   m_Name: Coffin
   m_TagString: Untagged
@@ -35,8 +36,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 2.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2668216063217098129}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1970341032003023560
@@ -177,77 +177,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3f98a431652034c9abb0e0f9bc3e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &8579347249239057765
-PrefabInstance:
+--- !u!114 &8410517300879436118
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 6922628958679548280}
-    m_Modifications:
-    - target: {fileID: 2716454281235312449, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.149
-      objectReference: {fileID: 0}
-    - target: {fileID: 2716454281235312449, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 2716454281235312449, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535436103170177922, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_Name
-      value: Sticker
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.22026372
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.28569126
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
---- !u!4 &2668216063217098129 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5911148788945631476, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
-  m_PrefabInstance: {fileID: 8579347249239057765}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4625790993564866371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0080c0d62394941a609440c17d44d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StickerAmountFactor: 4
+  stickersToSpawn: 0
+  goodStickers:
+  - {fileID: 5535436103170177922, guid: 9e6fe2bd57e4aba4a999ab2fcd2ca8a0, type: 3}
+  evilStickers:
+  - {fileID: 5535436103170177922, guid: e595b732461efa24f9fd860c74a16b14, type: 3}
