@@ -183,6 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   holdAreaConstraints: 0
+  releaseAreaConstraints: 2
   holdRange: 2
   pickupRange: 5
   pickupForce: 100
