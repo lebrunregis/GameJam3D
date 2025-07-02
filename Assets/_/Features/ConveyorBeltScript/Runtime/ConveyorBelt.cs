@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using ConveyorBeltScript.Runtime;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ConveyorBelt : MonoBehaviour
@@ -21,8 +21,6 @@ public class ConveyorBelt : MonoBehaviour
         // Move the conveyor belt texture to make it look like it's moving
         material.mainTextureOffset += textureScrollSpeed * Time.deltaTime;
 
-
-        Vector3 movement = direction * Time.deltaTime;
         for (int i = 0; i < GOOnBelt.Count; i++)
         {
             Rigidbody rb = GOOnBelt[i].gameObject.GetComponent<Rigidbody>();
@@ -30,10 +28,11 @@ public class ConveyorBelt : MonoBehaviour
             if (grabable.grabbed == true)
             {
                 GOOnBelt.Remove(GOOnBelt[i]);
+                rb.freezeRotation = false;
             }
             else
             {
-                rb.MovePosition(rb.position + movement);
+                rb.linearVelocity = direction;
             }
         }
     }
@@ -49,9 +48,11 @@ public class ConveyorBelt : MonoBehaviour
         Debug.Log("Coffin on collider");
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         Grabable grabable = collision.gameObject.GetComponent<Grabable>();
-
-        GOOnBelt.Add(collision.gameObject);
-        rb.useGravity = false;
+        if (grabable.grabbed == false)
+        {
+            GOOnBelt.Add(collision.gameObject);
+            rb.freezeRotation = true;
+        }
     }
 
     // When something leaves the belt
@@ -60,10 +61,8 @@ public class ConveyorBelt : MonoBehaviour
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         Grabable grabable = collision.gameObject.GetComponent<Grabable>();
         GOOnBelt.Remove(collision.gameObject);
-        rb.useGravity = true;
+        rb.freezeRotation = false;
     }
-
-
     #endregion
 
 
