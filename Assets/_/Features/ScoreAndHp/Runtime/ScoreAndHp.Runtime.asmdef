@@ -1,0 +1,17 @@
+{
+    "name": "ScoreAndHp.Runtime",
+    "rootNamespace": "ScoreAndHp.Runtime",
+    "references": [
+        "GUID:19a346d4936b97d4a8600c81d60445dd",
+        "GUID:ba2b1e5d117871c4cacbbcad64105b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

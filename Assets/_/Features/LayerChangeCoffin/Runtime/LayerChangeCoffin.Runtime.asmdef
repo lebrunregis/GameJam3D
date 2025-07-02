@@ -1,0 +1,14 @@
+{
+    "name": "LayerChangeCoffin.Runtime",
+    "rootNamespace": "LayerChangeCoffin.Runtime",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
