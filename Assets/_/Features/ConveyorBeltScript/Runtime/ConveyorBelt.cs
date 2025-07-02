@@ -28,7 +28,7 @@ public class ConveyorBelt : MonoBehaviour
             if (grabable.grabbed == true)
             {
                 GOOnBelt.Remove(GOOnBelt[i]);
-                rb.freezeRotation = false;
+                rb.constraints = RigidbodyConstraints.None;
             }
             else
             {
@@ -51,7 +51,7 @@ public class ConveyorBelt : MonoBehaviour
         if (grabable.grabbed == false)
         {
             GOOnBelt.Add(collision.gameObject);
-            rb.freezeRotation = true;
+            rb.constraints = RigidbodyConstraints.FreezeRotationX;
         }
     }
 
@@ -61,7 +61,7 @@ public class ConveyorBelt : MonoBehaviour
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         Grabable grabable = collision.gameObject.GetComponent<Grabable>();
         GOOnBelt.Remove(collision.gameObject);
-        rb.freezeRotation = false;
+        rb.constraints = RigidbodyConstraints.None;
     }
     #endregion
 
