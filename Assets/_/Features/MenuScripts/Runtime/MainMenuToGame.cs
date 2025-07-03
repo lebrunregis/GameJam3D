@@ -9,7 +9,7 @@ namespace MenuScripts.Runtime
 
         public void LoadScene()
         {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("ScoreTestScene");
         }
 
         public void LoadMenu()

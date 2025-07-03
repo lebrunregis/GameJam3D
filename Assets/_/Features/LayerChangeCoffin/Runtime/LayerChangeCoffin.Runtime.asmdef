@@ -1,7 +1,9 @@
 {
     "name": "LayerChangeCoffin.Runtime",
     "rootNamespace": "LayerChangeCoffin.Runtime",
-    "references": [],
+    "references": [
+        "GUID:415ae3edf31cc1f489cafdce62dc4cc1"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

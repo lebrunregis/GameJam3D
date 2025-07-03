@@ -31,7 +31,7 @@ namespace GameManager.Runtime
         public void AddScore()
         {
             m_score += 1;
-            if (m_score / 20 == 1)
+            if (m_score % 20 == 0)
             {
                 AddHp();
             }
@@ -48,7 +48,7 @@ namespace GameManager.Runtime
 
         public void AddHp()
         {
-            if (_hp <= 0)
+            if (_hp > 0)
             {
                 if (_hp < _maxHp)
                 {
@@ -67,7 +67,7 @@ namespace GameManager.Runtime
 
             // Ajouter au tableau des high scores
             FindObjectOfType<MaxScore.Runtime.HighScoreManager>().SavePendingScore(m_score);
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("NameEntering");
         }
         #endregion
 

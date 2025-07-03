@@ -1,3 +1,4 @@
+using ShakingCoffin.Runtime;
 using UnityEngine;
 
 namespace LayerChangeCoffin.Runtime
@@ -12,16 +13,26 @@ namespace LayerChangeCoffin.Runtime
             None = -1,
             Evil = 0,
             Good = 1,
-            Alive = 2
+            Alive = 2,
+            Test = 3
+            
         }
 
+        public Shaking m_isShaking;
+        
         #endregion
 
         #region Unity API
 
         private void OnEnable()
         {
+            m_isShaking = GetComponent<Shaking>();
+            m_isShaking.enabled = false;
             m_coffinType = RandomType();
+            if (m_coffinType == CoffinType.Alive)
+            {
+                m_isShaking.enabled = true;
+            }
         }
 
         private void OnDisable()
@@ -36,7 +47,7 @@ namespace LayerChangeCoffin.Runtime
         private CoffinType RandomType()
         {
 
-            int randomNumber = Random.Range((int)CoffinType.None, (int)CoffinType.Alive);
+            int randomNumber = Random.Range((int)CoffinType.None, (int)CoffinType.Test);
             return (CoffinType)randomNumber;
         }
 
