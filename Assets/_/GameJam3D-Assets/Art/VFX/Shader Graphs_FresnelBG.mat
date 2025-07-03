@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_FX_water_lave
-  m_Shader: {fileID: -6465566751694194690, guid: f94aed81bcf0fb14999ef7e706bb46c3, type: 3}
+  m_Name: Shader Graphs_FresnelBG
+  m_Shader: {fileID: -6465566751694194690, guid: 928760bc645122f4e8f78f5896feff8d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9c3f97367b342b6469d866c6a7d4f7a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,20 +42,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_063d8ad067e84f24a36d29a5d040c525: 2.24
-    - Vector1_1d30b7a3bef3453892ed125d510161d5: 0.873
-    - Vector1_320b00fb1e0b4117837c42094f521177: 0.0326
-    - Vector1_3b0ca59d02b5497484ece7c571bb190f: 0.43
-    - Vector1_69e265a5284f48d4ba341450a5e85e75: 1.39
-    - Vector1_d2bec4241b694aabab28b22ddfd9c59a: 50
+    - _Color_Int: 4.48
+    - _Intensity: 1.65
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Color_33261d8186f8460eba99fa9fd85d9827: {r: 3.031433, g: 1.3077093, b: 0, a: 0}
-    - Color_6bd674b7f642464583ef967bee37de8b: {r: 5.216476, g: 0.07347477, b: 0.024606075, a: 0}
+    - _Color: {r: 0.9497324, g: 1, b: 0.1839623, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1139344471256980056
+--- !u!114 &4955321113731087810
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
