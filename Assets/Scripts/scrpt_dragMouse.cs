@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class scrpt_dragMouse : MonoBehaviour
 {
@@ -31,7 +28,7 @@ public class scrpt_dragMouse : MonoBehaviour
         }
     }
 
-    void OnMouseDrag()
+    private void OnMouseDrag()
     {
         float _rotX = Input.GetAxis("Mouse X") * m_rotDragSpeed * Time.deltaTime;
         float _rotY = Input.GetAxis("Mouse Y") * m_rotDragSpeed * Time.deltaTime;

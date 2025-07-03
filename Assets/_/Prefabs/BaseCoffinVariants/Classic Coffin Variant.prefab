@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4205614045971498524, guid: cd572017eacc34c4ab09df8e5ff6cb31, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72,6 +72,11 @@ PrefabInstance:
 --- !u!4 &1764715978685172497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cd572017eacc34c4ab09df8e5ff6cb31, type: 3}
+  m_PrefabInstance: {fileID: 2303378627045174522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6260582900780082798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5266168469092600468, guid: cd572017eacc34c4ab09df8e5ff6cb31, type: 3}
   m_PrefabInstance: {fileID: 2303378627045174522}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2466165272912796667
@@ -147,6 +152,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5710508380499128634}
+    - targetCorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1969734243167000654}
   m_SourcePrefab: {fileID: 100100000, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
 --- !u!4 &4768056792077982339 stripped
 Transform:
@@ -180,3 +188,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6730073430550537625, guid: cd572017eacc34c4ab09df8e5ff6cb31, type: 3}
+--- !u!114 &1969734243167000654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7064890359146187960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdf14c47d9b3a544a034c3d45e1cac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outline: {fileID: 6260582900780082798}
+  disableTime: 0.5
+  deltaDisable: 0

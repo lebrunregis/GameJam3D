@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5942309529471979057, guid: 4f9a5cc4ee16188459bd59bcce1a5625, type: 3}
+      propertyPath: outline
+      value: 
+      objectReference: {fileID: 7834095249740177330}
     - target: {fileID: 8089361403372732236, guid: 4f9a5cc4ee16188459bd59bcce1a5625, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -133,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6767813413293857117, guid: d062c942bd59070408bf5c608360ded7, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -143,5 +147,10 @@ PrefabInstance:
 --- !u!4 &7235015531864022934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d062c942bd59070408bf5c608360ded7, type: 3}
+  m_PrefabInstance: {fileID: 7200491877115443325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7834095249740177330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1104794958027270095, guid: d062c942bd59070408bf5c608360ded7, type: 3}
   m_PrefabInstance: {fileID: 7200491877115443325}
   m_PrefabAsset: {fileID: 0}

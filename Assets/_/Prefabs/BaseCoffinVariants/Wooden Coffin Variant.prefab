@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -502970709089092184, guid: 9b5100f8a7c918d4aa03642e1dea9b27, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b5100f8a7c918d4aa03642e1dea9b27, type: 3}
       propertyPath: m_Name
@@ -66,6 +66,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b5100f8a7c918d4aa03642e1dea9b27, type: 3}
   m_PrefabInstance: {fileID: 4517381816240257795}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8638005481469577928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3940461744348974645, guid: 9b5100f8a7c918d4aa03642e1dea9b27, type: 3}
+  m_PrefabInstance: {fileID: 4517381816240257795}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5269974432364680831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74,6 +79,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1969734243167000654, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: outline
+      value: 
+      objectReference: {fileID: 8638005481469577928}
     - target: {fileID: 4134755830731221299, guid: d230053265693f2408d28418d6f2493a, type: 3}
       propertyPath: m_Mesh
       value: 
