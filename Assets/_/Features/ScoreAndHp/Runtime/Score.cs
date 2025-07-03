@@ -13,12 +13,12 @@ namespace ScoreAndHp.runtime
 
             if (coffin.m_coffinType == expectedType)
             {
-                gameManager.AddScore(1);
+                gameManager.AddScore();
                 Debug.Log("Bonne zone !");
             }
             else
             {
-                gameManager.RemoveHp(1);
+                gameManager.RemoveHp();
                 Debug.Log("Mauvaise zone !");
             }
 
