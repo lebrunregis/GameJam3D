@@ -201,5 +201,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outline: {fileID: 6260582900780082798}
-  disableTime: 0.5
+  disableTime: 0.1
   deltaDisable: 0
