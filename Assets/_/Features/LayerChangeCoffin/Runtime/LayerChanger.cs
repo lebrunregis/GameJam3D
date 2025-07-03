@@ -26,19 +26,18 @@ namespace LayerChangeCoffin.Runtime
 
         private void OnEnable()
         {
-            m_isShaking = GetComponent<Shaking>();
-            m_isShaking.enabled = false;
             m_coffinType = RandomType();
             if (m_coffinType == CoffinType.Alive)
             {
-                m_isShaking.enabled = true;
+                Debug.Log(m_coffinType);
+                GetComponent<Shaking>();
             }
         }
 
-        private void OnDisable()
-        {
-            m_coffinType = CoffinType.None;
-        }
+        //private void OnDisable()
+        //{
+        //    m_coffinType = CoffinType.None;
+        //}
 
         #endregion
 

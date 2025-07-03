@@ -31,10 +31,10 @@ namespace GameManager.Runtime
         public void AddScore()
         {
             m_score += 1;
-            if (m_score % 20 == 0)
-            {
-                AddHp();
-            }
+            //if (m_score % 20 == 0)
+            //{
+            //    AddHp();
+            //}
         }
 
         public void RemoveHp()
@@ -42,6 +42,7 @@ namespace GameManager.Runtime
             if (_hp > 0)
             {
                 _hp -= 1;
+
             }
             
         }
@@ -73,9 +74,8 @@ namespace GameManager.Runtime
 
         #region private
 
-        private int _hp = 3;
+        public int _hp = 3;
         private int _maxHp = 10;
-        
 
         #endregion
     }
