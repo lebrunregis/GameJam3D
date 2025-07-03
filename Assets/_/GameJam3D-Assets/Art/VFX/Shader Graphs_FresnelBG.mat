@@ -43,7 +43,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Color_Int: 4.48
-    - _Intensity: 1.65
+    - _Intensity: 2.14
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
