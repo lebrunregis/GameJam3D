@@ -1,9 +1,12 @@
-using ConveyorBeltScript.Runtime;
 using System.Collections.Generic;
+using ConveyorBeltScript.Runtime;
 using UnityEngine;
 
 public class ConveyorBelt : MonoBehaviour
 {
+
+    public RigidbodyConstraints onBeltRigidbodyConstraints;
+    public RigidbodyConstraints offBeltRigidbodyConstraints;
     #region Unity API
 
 
@@ -51,7 +54,7 @@ public class ConveyorBelt : MonoBehaviour
         if (grabable.grabbed == false)
         {
             GOOnBelt.Add(collision.gameObject);
-            rb.constraints = RigidbodyConstraints.FreezeRotationX;
+            rb.constraints = onBeltRigidbodyConstraints;
         }
     }
 
@@ -61,7 +64,7 @@ public class ConveyorBelt : MonoBehaviour
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         Grabable grabable = collision.gameObject.GetComponent<Grabable>();
         GOOnBelt.Remove(collision.gameObject);
-        rb.constraints = RigidbodyConstraints.None;
+        rb.constraints = offBeltRigidbodyConstraints;
     }
     #endregion
 
