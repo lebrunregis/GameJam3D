@@ -11,7 +11,8 @@ namespace LayerChangeCoffin.Runtime
         {
             None = -1,
             Evil = 0,
-            Good = 1
+            Good = 1,
+            Alive = 2
         }
 
         #endregion
@@ -35,23 +36,8 @@ namespace LayerChangeCoffin.Runtime
         private CoffinType RandomType()
         {
 
-            int randomNumber = Random.Range(-1, 1);
-            CoffinType newType = CoffinType.None;
-            switch (randomNumber)
-            {
-                case 0:
-                    newType = CoffinType.Evil;
-                    break;
-                case 1:
-                    newType = CoffinType.Good;
-                    break;
-                default:
-                    newType = CoffinType.None;
-                    break;
-
-            }
-
-            return newType;
+            int randomNumber = Random.Range((int) CoffinType.None, (int)CoffinType.Alive);
+            return (CoffinType) randomNumber;
         }
 
         public void SetType(CoffinType type)
