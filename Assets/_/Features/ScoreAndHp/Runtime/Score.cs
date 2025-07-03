@@ -22,7 +22,7 @@ namespace ScoreAndHp.runtime
                 Debug.Log("Mauvaise zone !");
             }
 
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
 
         #region Unity API
