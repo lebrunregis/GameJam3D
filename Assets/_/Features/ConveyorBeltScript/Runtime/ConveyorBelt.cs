@@ -1,5 +1,5 @@
-using ConveyorBeltScript.Runtime;
 using System.Collections.Generic;
+using ConveyorBeltScript.Runtime;
 using UnityEngine;
 
 public class ConveyorBelt : MonoBehaviour

@@ -36,8 +36,8 @@ namespace LayerChangeCoffin.Runtime
         private CoffinType RandomType()
         {
 
-            int randomNumber = Random.Range((int) CoffinType.None, (int)CoffinType.Alive);
-            return (CoffinType) randomNumber;
+            int randomNumber = Random.Range((int)CoffinType.None, (int)CoffinType.Alive);
+            return (CoffinType)randomNumber;
         }
 
         public void SetType(CoffinType type)

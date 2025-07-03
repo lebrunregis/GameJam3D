@@ -5,13 +5,13 @@ namespace GameManager.Runtime
     public class GameManagerScript : MonoBehaviour
     {
 
-        void Start()
+        private void Start()
         {
 
         }
 
 
-        void Update()
+        private void Update()
         {
 
         }
