@@ -86,11 +86,6 @@ Transform:
   - {fileID: 2536147482134523625}
   - {fileID: 6739441387328478765}
   - {fileID: 1312545627148694143}
-  - {fileID: 2571990256681605882}
-  - {fileID: 4763331433130339313}
-  - {fileID: 361003987645441977}
-  - {fileID: 8358468885312919128}
-  - {fileID: 4584207063066188403}
   m_Father: {fileID: 7345135314834874158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8110497901854285221
@@ -126,12 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e36f6e2759bb246a361f819b8d1d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 257138079889493185}
-  - {fileID: 7078183661427785162}
-  - {fileID: 2675851815514599810}
-  - {fileID: 6043616367347007587}
-  - {fileID: 2287373633739967560}
+  prefabs: []
 --- !u!114 &1076658080013489375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,6 +189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 724749873175170385, guid: 6739b62a0a0505244a2daddf216b174d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3039602168044870506, guid: 6739b62a0a0505244a2daddf216b174d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.77
@@ -239,6 +233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8309346549482412455, guid: 6739b62a0a0505244a2daddf216b174d, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -260,6 +258,10 @@ PrefabInstance:
     - target: {fileID: 2144978413978606012, guid: f809f8f5513eb904f92faaacc5c56c15, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2144978413978606012, guid: f809f8f5513eb904f92faaacc5c56c15, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4459826671613939591, guid: f809f8f5513eb904f92faaacc5c56c15, type: 3}
       propertyPath: m_LocalPosition.x
@@ -301,6 +303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7249124154204130634, guid: f809f8f5513eb904f92faaacc5c56c15, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -319,9 +325,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 3481622132249360886, guid: b86a49f2f2b98f14bbadc85ce5ed48e1, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5264525857829268736, guid: b86a49f2f2b98f14bbadc85ce5ed48e1, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264525857829268736, guid: b86a49f2f2b98f14bbadc85ce5ed48e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7579373842725501755, guid: b86a49f2f2b98f14bbadc85ce5ed48e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -425,6 +439,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3259858114278458965, guid: 4c088896ddbf71848b749c77ee1e7ae2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6080766787176616611, guid: 4c088896ddbf71848b749c77ee1e7ae2, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -486,6 +508,14 @@ PrefabInstance:
     - target: {fileID: 4422612847118262540, guid: f15fedd0fe53a3d43be95f9acbd2dc1b, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422612847118262540, guid: f15fedd0fe53a3d43be95f9acbd2dc1b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917412312480609786, guid: f15fedd0fe53a3d43be95f9acbd2dc1b, type: 3}
+      propertyPath: disableTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -549,6 +579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2941942161518298857, guid: c39d08f13d147cf4bba8371a23e907ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876509550404882975, guid: c39d08f13d147cf4bba8371a23e907ac, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -567,6 +605,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 1041941122022073551, guid: 6cb222d700e3abb47ad7b84e14b0defc, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6272348070062155266, guid: 6cb222d700e3abb47ad7b84e14b0defc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.236867
@@ -610,6 +652,10 @@ PrefabInstance:
     - target: {fileID: 8587196172775895097, guid: 6cb222d700e3abb47ad7b84e14b0defc, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587196172775895097, guid: 6cb222d700e3abb47ad7b84e14b0defc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -673,6 +719,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4381609955178591260, guid: 27f7f3b7743346e43be925208bd7dd80, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5012776350174798058, guid: 27f7f3b7743346e43be925208bd7dd80, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -691,6 +745,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 244444679616495121, guid: 94d30f080003ebb42bca5d6ca14d6c3b, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6492534370246622428, guid: 94d30f080003ebb42bca5d6ca14d6c3b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.63578
@@ -734,6 +792,10 @@ PrefabInstance:
     - target: {fileID: 8807386819501992679, guid: 94d30f080003ebb42bca5d6ca14d6c3b, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807386819501992679, guid: 94d30f080003ebb42bca5d6ca14d6c3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -797,6 +859,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3314998621137564433, guid: 6a4b4aab269a05f45870fe50e46b8591, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295842255413028839, guid: 6a4b4aab269a05f45870fe50e46b8591, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -818,6 +888,10 @@ PrefabInstance:
     - target: {fileID: 1289114214964803485, guid: 2c021938bf64e374e9b1f9c1c18f1009, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1289114214964803485, guid: 2c021938bf64e374e9b1f9c1c18f1009, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3585948005060960678, guid: 2c021938bf64e374e9b1f9c1c18f1009, type: 3}
       propertyPath: m_LocalPosition.x
@@ -859,6 +933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7547386524543476587, guid: 2c021938bf64e374e9b1f9c1c18f1009, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -868,77 +946,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3585948005060960678, guid: 2c021938bf64e374e9b1f9c1c18f1009, type: 3}
   m_PrefabInstance: {fileID: 1365131666310090575}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1435840650092615456
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5424722275796114020}
-    m_Modifications:
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_Name
-      value: Coffin (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
---- !u!1 &6043616367347007587 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 1435840650092615456}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &8358468885312919128 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 1435840650092615456}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1486809605639633268
 PrefabInstance:
@@ -951,6 +958,10 @@ PrefabInstance:
     - target: {fileID: 2212464901158030397, guid: 60f724d692961f64e965c3c22ab429fd, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212464901158030397, guid: 60f724d692961f64e965c3c22ab429fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4509302934689061382, guid: 60f724d692961f64e965c3c22ab429fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -992,6 +1003,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7487849664626202827, guid: 60f724d692961f64e965c3c22ab429fd, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1010,6 +1025,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 676766639716288296, guid: 2d2139ce8653e1d4bb46db11f34180c7, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5771986431958959589, guid: 2d2139ce8653e1d4bb46db11f34180c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.108913
@@ -1054,6 +1073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8086834553991599070, guid: 2d2139ce8653e1d4bb46db11f34180c7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1072,9 +1095,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 3770915696689296279, guid: ff56a26cb15f2ad46badf8583e1a72e3, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5551413708007532385, guid: ff56a26cb15f2ad46badf8583e1a72e3, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551413708007532385, guid: ff56a26cb15f2ad46badf8583e1a72e3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7866266140317200730, guid: ff56a26cb15f2ad46badf8583e1a72e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1134,9 +1165,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 3937988151975633208, guid: 0e92442a003483946bb16e436310c97b, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5762608465405916622, guid: 0e92442a003483946bb16e436310c97b, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762608465405916622, guid: 0e92442a003483946bb16e436310c97b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8059446501386118133, guid: 0e92442a003483946bb16e436310c97b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1211,6 +1250,30 @@ PrefabInstance:
     - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
       propertyPath: m_LocalPosition.z
       value: -4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348540324632072126, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 3401573803598612489, guid: ad2dcae72b43fac448472e5a4049c783, type: 3}
       propertyPath: m_Name
@@ -1331,6 +1394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic Coffin Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1496756082487447460, guid: 7420889639ebc6a43873c5d3e5650105, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811603844054260127, guid: 7420889639ebc6a43873c5d3e5650105, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.63578
@@ -1371,6 +1438,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7898158400541301586, guid: 7420889639ebc6a43873c5d3e5650105, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1392,6 +1463,10 @@ PrefabInstance:
     - target: {fileID: 1514838324061122336, guid: a39f2b55749afad4bb84ca7260d15102, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514838324061122336, guid: a39f2b55749afad4bb84ca7260d15102, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3829690621069654299, guid: a39f2b55749afad4bb84ca7260d15102, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1433,6 +1508,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7808019011128949718, guid: a39f2b55749afad4bb84ca7260d15102, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1442,77 +1521,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3829690621069654299, guid: a39f2b55749afad4bb84ca7260d15102, type: 3}
   m_PrefabInstance: {fileID: 2220315126291803104}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2452455118315121289
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5424722275796114020}
-    m_Modifications:
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_Name
-      value: Coffin (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
---- !u!4 &4763331433130339313 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 2452455118315121289}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7078183661427785162 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 2452455118315121289}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2630050231679567888
 PrefabInstance:
@@ -1566,6 +1574,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3638476529703552263, guid: abc949e715b1e8047b7858df7a5820be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5413354937093083633, guid: abc949e715b1e8047b7858df7a5820be, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1584,6 +1600,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 2172396836193164571, guid: cd8ca7249f2805740bc4bc0f4f64ab2c, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5141857133317316566, guid: cd8ca7249f2805740bc4bc0f4f64ab2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.108913
@@ -1627,6 +1647,10 @@ PrefabInstance:
     - target: {fileID: 7456705253210065389, guid: cd8ca7249f2805740bc4bc0f4f64ab2c, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7456705253210065389, guid: cd8ca7249f2805740bc4bc0f4f64ab2c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1690,6 +1714,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4580706586778339054, guid: a30896befd3d74242ac0e77b201a3338, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5102471574811759128, guid: a30896befd3d74242ac0e77b201a3338, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1708,6 +1740,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 710879682233011708, guid: 34feb8fd38c96994888dc2cc65e23a76, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5810736389588553521, guid: 34feb8fd38c96994888dc2cc65e23a76, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.236867
@@ -1751,6 +1787,10 @@ PrefabInstance:
     - target: {fileID: 8107574236581943562, guid: 34feb8fd38c96994888dc2cc65e23a76, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107574236581943562, guid: 34feb8fd38c96994888dc2cc65e23a76, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1814,6 +1854,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3559484316522642857, guid: 6c30a4734b394394bbd7ee53166ca3ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5204959001418017119, guid: 6c30a4734b394394bbd7ee53166ca3ba, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1832,6 +1880,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 228296478024161729, guid: ffe9a2b030cc48040ba274dda61a3d47, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6509248301090233100, guid: ffe9a2b030cc48040ba274dda61a3d47, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.236867
@@ -1876,6 +1928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic Coffin Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8824096406211104055, guid: ffe9a2b030cc48040ba274dda61a3d47, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1897,6 +1953,10 @@ PrefabInstance:
     - target: {fileID: 2023309563141004222, guid: 59011774934d5d0488bb885195d6b941, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2023309563141004222, guid: 59011774934d5d0488bb885195d6b941, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4338162064169389445, guid: 59011774934d5d0488bb885195d6b941, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1938,6 +1998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7298738307074248520, guid: 59011774934d5d0488bb885195d6b941, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1956,9 +2020,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 3247507520667009833, guid: 93b4a972bd940744682373a05980260a, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6075101224265160671, guid: 93b4a972bd940744682373a05980260a, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075101224265160671, guid: 93b4a972bd940744682373a05980260a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8389953604790927844, guid: 93b4a972bd940744682373a05980260a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2018,6 +2090,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 1027575804373218143, guid: a19ee66140a457d41b3b74eeb6ad5f28, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6286112518010417554, guid: a19ee66140a457d41b3b74eeb6ad5f28, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9362682
@@ -2062,6 +2138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8582946362103588777, guid: a19ee66140a457d41b3b74eeb6ad5f28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2080,9 +2160,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 3767890918526045305, guid: e43e3feec917a3447913162981ff4c89, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5554154751642540175, guid: e43e3feec917a3447913162981ff4c89, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5554154751642540175, guid: e43e3feec917a3447913162981ff4c89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7869002871805333172, guid: e43e3feec917a3447913162981ff4c89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2142,6 +2230,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 486273634153811803, guid: 1b79ec10b9fcf4a4693998409121aaf5, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6900073127120096662, guid: 1b79ec10b9fcf4a4693998409121aaf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9362682
@@ -2185,6 +2277,10 @@ PrefabInstance:
     - target: {fileID: 9214920955258313645, guid: 1b79ec10b9fcf4a4693998409121aaf5, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9214920955258313645, guid: 1b79ec10b9fcf4a4693998409121aaf5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2248,6 +2344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic Coffin Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3680973718874581028, guid: 072cf3c8502172d47aa9535f3039219e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353404030834490578, guid: 072cf3c8502172d47aa9535f3039219e, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2266,9 +2370,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 2313454666785151560, guid: 4ddda3d8cf148104d93fffb8323ff395, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6432657873669131966, guid: 4ddda3d8cf148104d93fffb8323ff395, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432657873669131966, guid: 4ddda3d8cf148104d93fffb8323ff395, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8747510531463895173, guid: 4ddda3d8cf148104d93fffb8323ff395, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2372,6 +2484,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3295067328660865641, guid: ee900943867720c48af827ad4f47170e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117015040048125599, guid: ee900943867720c48af827ad4f47170e, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2390,9 +2510,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 3058921067569228567, guid: 7be4a1ec3d51aa2478bd5ef1a9b88607, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5993470881449770977, guid: 7be4a1ec3d51aa2478bd5ef1a9b88607, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993470881449770977, guid: 7be4a1ec3d51aa2478bd5ef1a9b88607, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8290304725266082266, guid: 7be4a1ec3d51aa2478bd5ef1a9b88607, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2452,9 +2580,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 4218525837014460596, guid: 9b79128b604ab3a4687802c94ff0f4a6, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4887910173862280258, guid: 9b79128b604ab3a4687802c94ff0f4a6, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887910173862280258, guid: 9b79128b604ab3a4687802c94ff0f4a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7202762537452694137, guid: 9b79128b604ab3a4687802c94ff0f4a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2514,9 +2650,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 2710560498834620913, guid: 51bb18a0a1c2a5640a1f56f53450b44c, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6684387394984580359, guid: 51bb18a0a1c2a5640a1f56f53450b44c, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684387394984580359, guid: 51bb18a0a1c2a5640a1f56f53450b44c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8999235293687595836, guid: 51bb18a0a1c2a5640a1f56f53450b44c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2568,77 +2712,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8999235293687595836, guid: 51bb18a0a1c2a5640a1f56f53450b44c, type: 3}
   m_PrefabInstance: {fileID: 4862726496190234315}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4873904006061661058
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5424722275796114020}
-    m_Modifications:
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_Name
-      value: Coffin (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
---- !u!1 &257138079889493185 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 4873904006061661058}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2571990256681605882 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 4873904006061661058}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4910343386348241727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2647,6 +2720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 1217506736803229986, guid: 72de0f4082aab8c4cb83eb6dfddad5f1, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5303867437829796847, guid: 72de0f4082aab8c4cb83eb6dfddad5f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.71
@@ -2691,6 +2768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7618715557991605716, guid: 72de0f4082aab8c4cb83eb6dfddad5f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2712,6 +2793,10 @@ PrefabInstance:
     - target: {fileID: 1936683099833124475, guid: ba32b2b6bd1a802498beeaea312c48b3, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936683099833124475, guid: ba32b2b6bd1a802498beeaea312c48b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4233516961105023040, guid: ba32b2b6bd1a802498beeaea312c48b3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2753,6 +2838,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7187205723554026125, guid: ba32b2b6bd1a802498beeaea312c48b3, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2774,6 +2863,10 @@ PrefabInstance:
     - target: {fileID: 200314054181394780, guid: cc829ed3c900f0a4bbe5337f94bb6fcb, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 200314054181394780, guid: cc829ed3c900f0a4bbe5337f94bb6fcb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2515166557090336615, guid: cc829ed3c900f0a4bbe5337f94bb6fcb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2815,6 +2908,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8906367510846754218, guid: cc829ed3c900f0a4bbe5337f94bb6fcb, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2836,6 +2933,10 @@ PrefabInstance:
     - target: {fileID: 370674669085574412, guid: 90e02c2452825fb4e8bbcbfb66035f5a, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 370674669085574412, guid: 90e02c2452825fb4e8bbcbfb66035f5a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2667508253064893239, guid: 90e02c2452825fb4e8bbcbfb66035f5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2876,6 +2977,10 @@ PrefabInstance:
     - target: {fileID: 2667508253064893239, guid: 90e02c2452825fb4e8bbcbfb66035f5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8969631312336720378, guid: 90e02c2452825fb4e8bbcbfb66035f5a, type: 3}
+      propertyPath: disableTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2939,6 +3044,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3046361248377256075, guid: 8bbef60ffc604b447909534289b555b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5987737912774716541, guid: 8bbef60ffc604b447909534289b555b1, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2957,9 +3070,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 4607167877908559801, guid: 22b522ad1e4093c4db84b53f25ec6bdf, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5094024471271809871, guid: 22b522ad1e4093c4db84b53f25ec6bdf, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5094024471271809871, guid: 22b522ad1e4093c4db84b53f25ec6bdf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7390862728132457844, guid: 22b522ad1e4093c4db84b53f25ec6bdf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3019,9 +3140,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 2733554384708507221, guid: 848810db66b630c41b4c66d2cfa04a4d, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6679374503498924707, guid: 848810db66b630c41b4c66d2cfa04a4d, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6679374503498924707, guid: 848810db66b630c41b4c66d2cfa04a4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8976207881310639256, guid: 848810db66b630c41b4c66d2cfa04a4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3125,6 +3254,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3199894292876899663, guid: a416bb633fcf0a14e98b9aca5a021907, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140130763714322873, guid: a416bb633fcf0a14e98b9aca5a021907, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3135,148 +3272,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 885041841483146100, guid: a416bb633fcf0a14e98b9aca5a021907, type: 3}
   m_PrefabInstance: {fileID: 6728870267789610877}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &6885016834333530891
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5424722275796114020}
-    m_Modifications:
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_Name
-      value: Coffin (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
---- !u!1 &2287373633739967560 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 6885016834333530891}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4584207063066188403 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 6885016834333530891}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &7282484884117284545
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5424722275796114020}
-    m_Modifications:
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_Name
-      value: Coffin (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
---- !u!4 &361003987645441977 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6922628958679548280, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 7282484884117284545}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2675851815514599810 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4625790993564866371, guid: 62dcf3515a7757a4499bcf504bb1218f, type: 3}
-  m_PrefabInstance: {fileID: 7282484884117284545}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7284374917963999699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3285,9 +3280,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 2943251016327959609, guid: 9833037231608b046b88b9cb83c74061, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5874639734278504655, guid: 9833037231608b046b88b9cb83c74061, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874639734278504655, guid: 9833037231608b046b88b9cb83c74061, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8189491962577884916, guid: 9833037231608b046b88b9cb83c74061, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3347,6 +3350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 1544588746027304396, guid: 067797f8d7fbad249b4f63007290c1ae, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5481188608193857281, guid: 067797f8d7fbad249b4f63007290c1ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.71
@@ -3391,6 +3398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7796036369752510778, guid: 067797f8d7fbad249b4f63007290c1ae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3412,6 +3423,10 @@ PrefabInstance:
     - target: {fileID: 960305652736705660, guid: c4e560dd292218640a094c7c5fee190a, type: 3}
       propertyPath: m_Name
       value: Destroyed Coffin Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 960305652736705660, guid: c4e560dd292218640a094c7c5fee190a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3275158018205160007, guid: c4e560dd292218640a094c7c5fee190a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3452,6 +3467,10 @@ PrefabInstance:
     - target: {fileID: 3275158018205160007, guid: c4e560dd292218640a094c7c5fee190a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362584609463079050, guid: c4e560dd292218640a094c7c5fee190a, type: 3}
+      propertyPath: disableTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3515,6 +3534,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2339812067458266733, guid: 7dfde0322c8d4c14c8f7cfd8fc58dc76, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424033229574791835, guid: 7dfde0322c8d4c14c8f7cfd8fc58dc76, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3533,6 +3560,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 1664014876938130184, guid: 68bab1c97d00db341b0a475e8563c398, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5650231988037800389, guid: 68bab1c97d00db341b0a475e8563c398, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.409401
@@ -3577,6 +3608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic Coffin Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7947070161423763454, guid: 68bab1c97d00db341b0a475e8563c398, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3595,6 +3630,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 324034417148227775, guid: 8fabb36f7c2ac6a498a1d5e87975435e, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6701742370071310962, guid: 8fabb36f7c2ac6a498a1d5e87975435e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.371087
@@ -3638,6 +3677,10 @@ PrefabInstance:
     - target: {fileID: 9016590286247633993, guid: 8fabb36f7c2ac6a498a1d5e87975435e, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9016590286247633993, guid: 8fabb36f7c2ac6a498a1d5e87975435e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3701,6 +3744,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyed Coffin Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3191600497550476935, guid: 2f6c2c77e4879d141a9d2bc58f38b710, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130728660668060273, guid: 2f6c2c77e4879d141a9d2bc58f38b710, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3722,6 +3773,10 @@ PrefabInstance:
     - target: {fileID: 70293734161843084, guid: c7b00b03167445e4d8bae3ad1fd19342, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 70293734161843084, guid: c7b00b03167445e4d8bae3ad1fd19342, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2367127575838905783, guid: c7b00b03167445e4d8bae3ad1fd19342, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3763,6 +3818,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8766209693618984826, guid: c7b00b03167445e4d8bae3ad1fd19342, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3781,6 +3840,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 1462093271653107081, guid: fe4b6e2c66f0afa4db23f0480dda126b, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5563083181278185284, guid: fe4b6e2c66f0afa4db23f0480dda126b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.63578
@@ -3825,6 +3888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classic Coffin Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7859916696537436543, guid: fe4b6e2c66f0afa4db23f0480dda126b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3843,9 +3910,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5424722275796114020}
     m_Modifications:
+    - target: {fileID: 4327284394621080752, guid: ddec3b38c802d534cb170c475daf1e9f, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4995605486542962758, guid: ddec3b38c802d534cb170c475daf1e9f, type: 3}
       propertyPath: m_Name
       value: Classic Coffin Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995605486542962758, guid: ddec3b38c802d534cb170c475daf1e9f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7310457660878165629, guid: ddec3b38c802d534cb170c475daf1e9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3949,6 +4024,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Coffin Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2525103445551318889, guid: a972df5592134784487052ba19d6b256, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6508993072119567263, guid: a972df5592134784487052ba19d6b256, type: 3}
+      propertyPath: disableTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4010,6 +4093,14 @@ PrefabInstance:
     - target: {fileID: 4003219329799608739, guid: e4a98be4d086a264684f3345b6a87cd7, type: 3}
       propertyPath: m_Name
       value: Wooden Coffin Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003219329799608739, guid: e4a98be4d086a264684f3345b6a87cd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5679079018527657301, guid: e4a98be4d086a264684f3345b6a87cd7, type: 3}
+      propertyPath: disableTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
