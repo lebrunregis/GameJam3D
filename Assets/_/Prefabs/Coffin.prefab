@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0080c0d62394941a609440c17d44d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placementBaseAngle: {x: 180, y: 0, z: 0}
-  placementRange: {x: 45, y: 45, z: 0}
-  raycastDistance: 3
+  placementBaseAngle: {x: -90, y: 0, z: 0}
+  placementRange: {x: 90, y: 90, z: 0}
+  raycastDistance: 5
   raycastSource: {fileID: 3850350577647136065}
   StickerAmountFactor: 4
   stickersToSpawn: 0

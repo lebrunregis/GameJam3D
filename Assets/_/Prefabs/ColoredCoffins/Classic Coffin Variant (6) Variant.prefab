@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3714732947730680951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1033119161944424486, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 503e1a6b30317864b82beb802491e98b, type: 2}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.236867
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.27833295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.80875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768056792077982339, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064890359146187960, guid: d230053265693f2408d28418d6f2493a, type: 3}
+      propertyPath: m_Name
+      value: Classic Coffin Variant (6) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d230053265693f2408d28418d6f2493a, type: 3}
