@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 35ff07e991efd1e4e9ebe8aa80833a6e
+guid: c84c878db295a394693614a6a880901c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mat_basecolors
-    second: {fileID: 2100000, guid: d1326640921e7564c9b11d14cc9b165d, type: 2}
+      name: MAT_Orange
+    second: {fileID: 2100000, guid: f41dbe4cbcd11674fb5d93ec454261e4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
