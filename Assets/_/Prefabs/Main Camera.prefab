@@ -182,10 +182,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c2df461366ac7645aa173e6da7e061c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTextureDefault: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+  cursorTextureDefault: {fileID: 2800000, guid: 1ea578fd350efe64fb473ed07b146811, type: 3}
   hotSpotDefault: {x: 0, y: 0}
-  cursorTextureEnabled: {fileID: 10900, guid: 0000000000000000f000000000000000, type: 0}
+  cursorTextureEnabled: {fileID: 2800000, guid: 360f75b33c669f84aac8266c9bd8486a, type: 3}
   hotSpotEnabled: {x: 0, y: 0}
+  currentState: 0
   cursorMode: 0
   holdAreaConstraints: 0
   releaseAreaConstraints: 2
