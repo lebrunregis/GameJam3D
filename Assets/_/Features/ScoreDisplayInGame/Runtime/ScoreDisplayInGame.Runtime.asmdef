@@ -1,8 +1,9 @@
 {
-    "name": "GameManager.Runtime",
-    "rootNamespace": "GameManager.Runtime",
+    "name": "ScoreDisplayInGame.Runtime",
+    "rootNamespace": "ScoreDisplayInGame.Runtime",
     "references": [
-        "GUID:6f549e2f599d19644bc10320c76b1134"
+        "GUID:19a346d4936b97d4a8600c81d60445dd",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

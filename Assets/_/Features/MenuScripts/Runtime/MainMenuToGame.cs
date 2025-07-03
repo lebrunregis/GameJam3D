@@ -12,6 +12,10 @@ namespace MenuScripts.Runtime
             SceneManager.LoadScene("MainScene");
         }
 
+        public void LoadMenu()
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
         public void QuitGame()
         {
             Application.Quit();
