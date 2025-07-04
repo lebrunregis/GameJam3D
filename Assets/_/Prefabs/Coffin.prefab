@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3f98a431652034c9abb0e0f9bc3e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_shaker: {fileID: 0}
 --- !u!114 &8410517300879436118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0080c0d62394941a609440c17d44d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placementBaseAngle: {x: -90, y: 0, z: 0}
+  placementBaseAngle: {x: -45, y: 0, z: 0}
   placementRange: {x: 90, y: 90, z: 0}
   raycastDistance: 5
   raycastSource: {fileID: 3850350577647136065}

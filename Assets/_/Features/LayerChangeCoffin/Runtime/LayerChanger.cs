@@ -1,8 +1,10 @@
 using ShakingCoffin.Runtime;
 using UnityEngine;
 
+
 namespace LayerChangeCoffin.Runtime
 {
+    [RequireComponent(typeof(Shaking))]
     public class LayerChanger : MonoBehaviour
     {
         #region public
@@ -14,11 +16,10 @@ namespace LayerChangeCoffin.Runtime
             Evil = 0,
             Good = 1,
             Alive = 2,
-            Test = 3
-            
         }
 
-        public Shaking m_isShaking;
+        public Shaking m_shaker;
+        public bool m_isShaking;
         
         #endregion
 
@@ -26,18 +27,25 @@ namespace LayerChangeCoffin.Runtime
 
         private void OnEnable()
         {
+            m_shaker = GetComponent<Shaking>();
             m_coffinType = RandomType();
             if (m_coffinType == CoffinType.Alive)
             {
-                Debug.Log(m_coffinType);
-                GetComponent<Shaking>();
+                m_shaker.enabled = true;
+                m_isShaking = true;
+            }else
+            {
+                m_shaker.enabled = false;
+                m_isShaking= false;
             }
         }
 
-        //private void OnDisable()
-        //{
-        //    m_coffinType = CoffinType.None;
-        //}
+        private void OnDisable()
+        {
+           m_coffinType = CoffinType.None;
+            m_isShaking = false;
+            m_shaker.enabled=false;
+        }
 
         #endregion
 
@@ -46,13 +54,17 @@ namespace LayerChangeCoffin.Runtime
         private CoffinType RandomType()
         {
 
-            int randomNumber = Random.Range((int)CoffinType.None, (int)CoffinType.Test);
+            int randomNumber = Random.Range((int)CoffinType.Evil, (int)CoffinType.Alive+1);
             return (CoffinType)randomNumber;
         }
 
         public void SetType(CoffinType type)
         {
-            m_coffinType = type;
+            if(type != CoffinType.Alive)
+            {
+                m_coffinType = type;
+            }
+            Debug.Log("Coffin type :" + m_coffinType);
         }
 
         #endregion

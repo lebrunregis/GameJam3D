@@ -48,7 +48,7 @@ public class ConveyorBelt : MonoBehaviour
     // When something collides with the belt
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Coffin on collider");
+       // Debug.Log("Coffin on collider");
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         Grabable grabable = collision.gameObject.GetComponent<Grabable>();
         if (grabable.grabbed == false)
